@@ -22,5 +22,5 @@ EXPOSE 3000
 # Start the app
 CMD ["npm", "start"]
 
-# TODO: Optimize this Dockerfile someday when I have time (ha!)
+# TODO: Optimize this Dockerfile
 

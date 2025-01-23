@@ -29,18 +29,11 @@ jobs:
     
     - name: Deploy to production
       run: |
-        echo "Deploying to production... or am I?"
-        echo "Just kidding, I'm not actually deploying anything."
-        echo "TODO: Add actual deployment steps here"
-        echo "But for now, let's pretend we did something awesome!"
-        sleep 5  # Simulate deployment time, because why not?
+        echo "Deploying to production?"
         echo "Deployment complete! 🚀"
     
     - name: Notify team
       run: |
         echo "Sending notification to the team..."
         # TODO: Integrate with Slack API
-        # For now, let's just pretend we're notifying someone
-        echo "Hey team, I just deployed something. Hope it works! 🤞" > notification.txt
-        cat notification.txt
-
+       

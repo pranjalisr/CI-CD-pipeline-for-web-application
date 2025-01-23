@@ -9,7 +9,7 @@ services:
       - NODE_ENV=development
       - DB_HOST=db
       - DB_USER=root
-      - DB_PASS=supersecretpassword  # TODO: Move this to .env file before I forget... again
+      - DB_PASS=supersecretpassword  
     depends_on:
       - db
   
@@ -21,7 +21,7 @@ services:
     volumes:
       - dbdata:/var/lib/mysql
 
-  # Gotta have Redis, even though I'm not sure we need it yet
+  
   redis:
     image: redis:alpine
 

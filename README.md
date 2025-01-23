@@ -14,7 +14,7 @@ Welcome to the most over-engineered "Hello World" app you've ever seen! This pro
 
 1. Clone this repo
 2. Run `docker-compose up`
-3. Cross your fingers
+3. Wait
 4. Visit `http://localhost:3000`
 5. Marvel at the complexity of saying "Hello"
 
@@ -25,14 +25,4 @@ Welcome to the most over-engineered "Hello World" app you've ever seen! This pro
 - Implement real tests
 - Optimize the Dockerfile
 - Add more routes 
-
-## Contributing
-
-If you want to contribute to this masterpiece of over-engineering, feel free to submit a pull request. Just remember, the more unnecessary complexity you add, the better!
-
-## License
-
-This project is licensed under MIT.
-
-Happy coding, and may your deployments be ever in your favor!
 

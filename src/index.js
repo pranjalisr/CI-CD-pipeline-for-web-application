@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 // MySQL connection
-// Note to self: Remember to actually use this connection somewhere
+
 const db = mysql.createConnection({
   host: process.env.DB_HOST,
   user: process.env.DB_USER,
@@ -32,7 +32,7 @@ const redisClient = redis.createClient({
 
 redisClient.on('error', (err) => {
   console.error('Redis error:', err);
-  // Meh, who needs caching anyway?
+  
 });
 
 app.get('/', (req, res) => {
@@ -47,5 +47,5 @@ app.listen(port, () => {
   console.log(`DeployMaster 3000 is alive on port ${port}! What could possibly go wrong?`);
 });
 
-// TODO: Add more routes, or don't. I'm a comment, not a cop.
+
 
