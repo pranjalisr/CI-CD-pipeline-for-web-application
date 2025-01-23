@@ -1,14 +1,14 @@
-# DeployMaster 3000
+# CI/CD Pipeline
 
-Welcome to the most over-engineered "Hello World" app you've ever seen! This project is a testament to the art of making simple things complicated, all in the name of DevOps.
-
+ CI/CD Pipeline for web application
+ 
 ## Features
 
 - Express.js server that says hello
-- MySQL database connection (that we don't actually use... yet)
-- Redis cache (because why not?)
+- MySQL database connection 
+- Redis cache 
 - Docker setup for easy* development
-- GitHub Actions CI/CD pipeline (it's not much, but it's honest work)
+- GitHub Actions CI/CD pipeline 
 
 ## Getting Started
 
